@@ -67,11 +67,13 @@ function NavBar() {
                 </div>
 
                 <div className="hidden space-x-2 md:inline-block">
+                <Link href="/announce">
                     <a
                         className="px-6 py-4 font-bold text-gray-800 bg-white rounded-md drop-shadow transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"
                     >
                         Anunciar
                     </a>
+                    </Link>
                     <Link href="/login">
                         <a
                             className="transition ease-in-out delay-200 hover:scale-105 px-6 py-4 font-bold text-white bg-sky-500 rounded-md shadow"
